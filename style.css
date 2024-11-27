@@ -1,0 +1,184 @@
+body{
+    background-color: #f0e8ff;
+}
+
+.header a{
+    color: black;
+    text-decoration: none;
+}
+
+.header h1 a{
+    text-decoration: none;
+}
+
+li{
+    position: relative;
+    list-style-type: none;
+    font-size: 25px;
+    border-radius: 25px;
+    background-color: #ffde59;
+}
+
+input[type=text]{
+    background-image: url('search.png');
+    background-position: 5px 5px;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-color: #ffde59;
+    padding: 12px 20px 15px 40px;
+    border-radius: 10px;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.container-slideshow {
+    margin-top: 3%;
+    width: 100%;
+    height: 800px;
+    border-radius: 15px;
+    animation: slide 5s infinite;
+}   
+
+@keyframes slide {
+    0%{
+        background: url(jollibee.png);
+        background-repeat: no-repeat;
+    }
+    25% {
+        background: url(jollibee.png);
+        background-repeat: no-repeat;
+    }
+    50% {
+        background: url(mcdo.png);
+        background-repeat: no-repeat;
+    }
+    75% {
+        background: url(kfc.jpeg);
+        background-repeat: no-repeat;
+    }
+    100% {
+        background: url(inasal.png);
+        background-repeat: no-repeat;
+    }
+}
+
+.gallery-container{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.jollibee, .mcdo, .inasal, .kfc{
+    background-color: #ffde59;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.jollibee a, .mcdo a, .inasal a, .kfc a{
+    color: black;
+    text-decoration: none;
+}
+
+.desc{
+    text-align: center;
+}
+
+#jollibee-order{
+    background-color: #f0e8ff;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-left: 30%;
+    margin-top: 3%;
+}
+
+#mcdo-order{
+    background-color: #f0e8ff;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-left: 30%;
+    margin-top: 3%;
+}
+
+#inasal-order{
+    background-color: #f0e8ff;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-left: 30%;
+    margin-top: 3%;
+}
+
+#kfc-order{
+    background-color: #f0e8ff;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-left: 30%;
+    margin-top: 3%;
+}
+
+.youtube-map{
+    margin-top: 3%;
+    border-radius: 15px;
+    background-color: rgb(256,220,92);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.footer {
+  font-size: 25px;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(256, 220, 92);
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 3%;
+}
+
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo {
+  width: 30px;
+  height: 30px;
+}
+
+.icons {
+    padding: 10px;
+    font-size: 25;
+}
+
+.fa-facebook, .fa-instagram, .fa-twitter {
+  background-color: #f0e8ff;
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.footer-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-center p a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.footer-right {
+  display: flex;
+  flex-direction: column;
+}
