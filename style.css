@@ -42,23 +42,23 @@ input[type=text]{
 @keyframes slide {
     0%{
         background: url(jollibee.png);
-        background-repeat: no-repeat;
+        
     }
     25% {
         background: url(jollibee.png);
-        background-repeat: no-repeat;
+        
     }
     50% {
         background: url(mcdo.png);
-        background-repeat: no-repeat;
+        
     }
     75% {
         background: url(kfc.jpeg);
-        background-repeat: no-repeat;
+        
     }
     100% {
         background: url(inasal.png);
-        background-repeat: no-repeat;
+        
     }
 }
 
